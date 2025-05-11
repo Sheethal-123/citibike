@@ -70,4 +70,4 @@ try:
         st.warning("⚠️ No data available for the selected year and month.")
 
 except Exception as e:
-    st.error(f"❌ Could not fetch predictions: {e}")
+    st.error(f"❌ Couldn't fetch predictions: {e}")

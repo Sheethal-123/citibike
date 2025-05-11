@@ -5,7 +5,7 @@ import plotly.express as px
 from sklearn.metrics import mean_absolute_error, mean_absolute_percentage_error
 import sys, os
 
-# 🔧 Add src to path for config
+#  Add src to path for config
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "src")))
 import config
 
